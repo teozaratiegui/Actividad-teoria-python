@@ -7,8 +7,7 @@ Instrucciones
 
 Datasets utilizados
 
-  History of Rock (1950-2020). Licencia: Public Domain.
-  International football results from 1872 to 2020. Licencia: Public Domain.
+  
 
 Datos personales
  
