@@ -10,7 +10,7 @@ def start():
             break
         else:
             if event == "-opcion uno-":
-                datasets.start("gun-violence-data",lambda crimen: crimen[2] == "California" and int(crimen[6])>3)
+                datasets.start("NBA_player_of_the_week",lambda week: week[2] == "East" and week[4]== "SG")
                 sg.popup("Archivo json creado con exito.")
             if event == "-opcion dos-":
                 datasets.start("bestsellers with categories",lambda bestsellers: int(bestsellers[4])>9 and bestsellers[6] == "Fiction")
