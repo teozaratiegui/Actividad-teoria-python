@@ -6,7 +6,7 @@
 2.Ejecutar run.py
 
 ## Datasets utilizados
-1.catalogo de netflix
+1.Jugadores de la semana NBA
 2.libros mas vendidos amazon  
 
 ## Datos personales
