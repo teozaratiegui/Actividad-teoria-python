@@ -2,8 +2,8 @@ import json
 import csv
 
 def start(dataset,function):
-    file = open(f"src/resources/{dataset}.csv",'r',encoding="utf-8")
-    archivo_json = open(f"src/resources/{dataset}.json",'w')
+    file = open(f"resources/{dataset}.csv",'r',encoding="utf-8")
+    archivo_json = open(f"resources/{dataset}.json",'w')
 
     contenido_archivo = csv.reader(file,delimiter=',')
     llaves = next(contenido_archivo)

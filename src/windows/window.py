@@ -1,7 +1,7 @@
 import PySimpleGUI as sg
 
 sg.theme("DarkRed")
-texto_uno = "Obtener los asaltos con arma en el estado de california con 2 o mas heridos"
+texto_uno = "Obtener los asaltos con arma en el estado de california con 4 o mas heridos"
 texto_dos = "Obtener, dentro de los top 50 libros de amazon de los ultimos 10 años, los libros de ficcion con un precio mayor a los 10 dolares"
 def build():
      layout_left = [[sg.Text(texto_uno,size=(35,4),justification = 'c')],
