@@ -16,5 +16,5 @@ def build():
                [sg.Column(layout_left,element_justification='c'),sg.Column(layout_right, element_justification='c')],
                [sg.Button("Salir",key = "-Salir-")]]
 
-     window = sg.Window('',layout,font=('Bahnschrift SemiLight',16),element_justification='center',no_titlebar=True,grab_anywhere=True)
+     window = sg.Window('',layout,font=('Courier 12',16),element_justification='center',no_titlebar=True,grab_anywhere=True)
      return window
